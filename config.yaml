@@ -1,0 +1,29 @@
+# Search settings for the daily hotel report. Edit this file, not the script.
+
+search:
+  location_query: "hotels near SoFi Stadium, Inglewood, CA"
+  adults: 2
+  currency: USD
+  hotel_class: [3, 4]          # star ratings to include
+  max_pages: 2                 # SerpApi calls per date window (each page = 1 search credit)
+
+# Reference point for distance filtering (SoFi Stadium)
+anchor:
+  name: SoFi Stadium
+  lat: 33.9535
+  lon: -118.3392
+  max_distance_km: 10          # drop hotels farther than this
+
+# Stay windows to price every day. Dates are tentative, so add alternatives freely.
+date_windows:
+  - label: "Mar 7-14 (tentative)"
+    check_in: "2027-03-07"
+    check_out: "2027-03-14"
+  # - label: "Mar 11-14 (short stay)"
+  #   check_in: "2027-03-11"
+  #   check_out: "2027-03-14"
+
+report:
+  top_n: 15
+  # value score = rating / (nightly price / 100). Higher is better.
+  min_rating: 3.8              # ignore hotels rated below this when ranking value
