@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: hotel-report
+  cancel-in-progress: false
+
 jobs:
   report:
     runs-on: ubuntu-latest
@@ -29,7 +33,12 @@ jobs:
       - name: Publish to job summary
         run: cat reports/latest.md >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Commit snapshot and report
+      - name: Send to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python send_discord.py
+
+      - name: Commit snapshot, state and report
         run: |
           git config user.name "hotel-report-bot"
           git config user.email "actions@users.noreply.github.com"

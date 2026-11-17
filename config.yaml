@@ -29,6 +29,10 @@ filters:
   min_nightly: 0               # drop suspiciously cheap listings (0 = no limit)
   min_reviews: 50              # ignore hotels with fewer reviews
 
+discord:
+  top_n: 8                     # hotels shown in the daily Discord post
+  min_drop_usd: 5              # flag a price drop on a hotel you've seen once it falls this much
+
 report:
   top_n: 15
   # value score = rating / (nightly price / 100). Higher is better.
