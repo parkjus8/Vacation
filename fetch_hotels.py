@@ -41,6 +41,8 @@ def fetch_window(cfg, window, api_key):
         "sort_by": 3,  # lowest price
         "api_key": api_key,
     }
+    if s.get("breakfast_included"):
+        params["amenities"] = "9"  # Google Hotels amenity ID 9 = Free breakfast
     props = []
     for _ in range(s.get("max_pages", 1)):
         resp = requests.get(SERP_URL, params=params, timeout=60)
@@ -70,6 +72,13 @@ def normalize(cfg, window, props):
             total = nightly * nights
         if nightly is None:
             continue  # no price available for these dates
+        f = cfg.get("filters") or {}
+        if f.get("max_nightly") and nightly > f["max_nightly"]:
+            continue
+        if f.get("min_nightly") and nightly < f["min_nightly"]:
+            continue
+        if (p.get("reviews") or 0) < (f.get("min_reviews") or 0):
+            continue
         dist = None
         if gps.get("latitude") is not None:
             dist = haversine_km(a["lat"], a["lon"], gps["latitude"], gps["longitude"])
@@ -81,6 +90,7 @@ def normalize(cfg, window, props):
             "stars": p.get("extracted_hotel_class"),
             "rating": p.get("overall_rating"),
             "reviews": p.get("reviews"),
+            "breakfast": any("breakfast" in str(x).lower() for x in (p.get("amenities") or [])),
             "nightly": nightly,
             "total": total,
             "distance_km": round(dist, 1) if dist is not None else None,
@@ -143,13 +153,14 @@ def render(cfg, hotels, prev, today_str):
 
         for title, rows in (("Cheapest", cheapest), ("Best value (rating per dollar)", best_value)):
             lines += ["", f"### {title}", "",
-                      "| Hotel | Stars | Rating | Km to SoFi | Nightly | Total | Change |",
-                      "|---|---|---|---|---|---|---|"]
+                      "| Hotel | Stars | Rating | Km to SoFi | Breakfast | Nightly | Total | Change |",
+                      "|---|---|---|---|---|---|---|---|"]
             for h in rows:
                 name = f"[{h['name']}]({h['link']})" if h.get("link") else h["name"]
                 lines.append(
                     f"| {name} | {h['stars'] or '?'} | {h['rating'] or '?'} ({h['reviews'] or 0}) | "
                     f"{h['distance_km'] if h['distance_km'] is not None else '?'} | "
+                    f"{'yes' if h.get('breakfast') else '-'} | "
                     f"{money(h['nightly'])} | {money(h['total'])} | {delta_str(h, prev)} |"
                 )
         drops = [h for h in hs if key(h) in prev and h["nightly"] < prev[key(h)]["nightly"]]
