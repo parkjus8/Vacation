@@ -2,7 +2,10 @@ name: Daily hotel report
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 13:00 UTC = 8:00 AM Eastern (9:00 AM during daylight time)
+    # GitHub cron is UTC. These are 7:03 AM and 11:03 PM Eastern Standard Time (UTC-5),
+    # which applies until daylight time starts on Mar 14, 2027. Minute 3 avoids the busy top-of-hour queue.
+    - cron: "3 12 * * *"
+    - cron: "3 4 * * *"
   workflow_dispatch:        # lets you run it manually from the Actions tab
 
 permissions:

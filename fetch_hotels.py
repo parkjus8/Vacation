@@ -14,8 +14,9 @@ import json
 import math
 import os
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 import yaml
@@ -349,7 +350,11 @@ def main():
     args = ap.parse_args()
 
     cfg = yaml.safe_load(Path(args.config).read_text())
-    today_str = args.date or date.today().isoformat()
+    # One snapshot per run (not per day), so each run compares with the previous run.
+    now = datetime.now(timezone.utc)
+    today_str = args.date or now.strftime("%Y-%m-%dT%H%M")
+    tz = ZoneInfo((cfg.get("report") or {}).get("timezone", "America/Toronto"))
+    display = datetime.now(tz).strftime("%b %d, %I:%M %p").replace(" 0", " ")
     api_key = os.environ.get("SERPAPI_KEY")
     if not api_key and not args.mock:
         sys.exit("SERPAPI_KEY is not set")
@@ -396,7 +401,7 @@ def main():
             if rec and rec["price"] - h["nightly"] >= min_drop:
                 seen_drops.append({"name": h["name"], "old": rec["price"], "now": h["nightly"], "in_top": h["name"] in top_names})
 
-        messages += build_messages(cfg, w, top, changes, seen_drops, today_str, first_run)
+        messages += build_messages(cfg, w, top, changes, seen_drops, display, first_run)
 
         # Update state: everything mentioned today (top list and drop callouts) is now "seen"
         mentioned = {h["name"]: h for h in top}
@@ -410,7 +415,7 @@ def main():
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     (SNAP_DIR / f"{today_str}.json").write_text(json.dumps({"date": today_str, "hotels": all_kept, "excluded": all_excluded}, indent=1))
     STATE_FILE.write_text(json.dumps(state, indent=1))
-    md = render_markdown(cfg, hotels_by_window, prev_by_window, today_str)
+    md = render_markdown(cfg, hotels_by_window, prev_by_window, display)
     (REPORT_DIR / f"{today_str}.md").write_text(md)
     (REPORT_DIR / "latest.md").write_text(md)
     (REPORT_DIR / "discord.json").write_text(json.dumps(messages, indent=1))
