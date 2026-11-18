@@ -1,32 +1,32 @@
 {
  "shown": {
   "Mar 7-14 (tentative)|Studio 6 Suites Los Angeles, CA - Los Angeles - LAX": {
-   "price": 78,
-   "date": "2026-11-18T1246"
+   "price": 82,
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|La Quinta Inn & Suites by Wyndham Inglewood": {
    "price": 111,
-   "date": "2026-11-18T1246"
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|Comfort Inn Cockatoo Near LAX Airport": {
-   "price": 129,
-   "date": "2026-11-18T1246"
+   "price": 130,
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG": {
-   "price": 153,
-   "date": "2026-11-18T1246"
+   "price": 164,
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|Hampton Inn by Hilton Los Angeles Airport LAX": {
    "price": 180,
-   "date": "2026-11-18T1246"
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|TownePlace Suites by Marriott Los Angeles LAX/Hawthorne": {
    "price": 180,
-   "date": "2026-11-18T1246"
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|Renaissance Los Angeles Airport Hotel": {
    "price": 180,
-   "date": "2026-11-18T1246"
+   "date": "2026-11-18T1951"
   },
   "Mar 7-14 (tentative)|King Motel": {
    "price": 86,
@@ -42,14 +42,14 @@
   },
   "Mar 7-14 (tentative)|Hilton Garden Inn LAX Los Angeles Airport": {
    "price": 166,
-   "date": "2026-11-18T1246"
+   "date": "2026-11-18T1951"
   }
  },
  "last_top": {
   "Mar 7-14 (tentative)": [
    {
     "name": "Studio 6 Suites Los Angeles, CA - Los Angeles - LAX",
-    "nightly": 78
+    "nightly": 82
    },
    {
     "name": "La Quinta Inn & Suites by Wyndham Inglewood",
@@ -57,11 +57,11 @@
    },
    {
     "name": "Comfort Inn Cockatoo Near LAX Airport",
-    "nightly": 129
+    "nightly": 130
    },
    {
     "name": "Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG",
-    "nightly": 153
+    "nightly": 164
    },
    {
     "name": "Hampton Inn by Hilton Los Angeles Airport LAX",
