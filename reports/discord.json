@@ -2,8 +2,8 @@
  {
   "embeds": [
    {
-    "title": "SoFi hotels, Nov 17, 3:22 PM",
-    "description": "**Mar 7-14 (tentative)**: 2027-03-07 to 2027-03-14, 2 guests, showing 8 hotels (best value, cheapest always included).\n\n**Added to the list** (1)\n\u2022 **Hyatt Place Los Angeles/LAX/El Segundo**: moved up the value ranking at $184/night\n\n**Dropped from the list** (1)\n\u2022 **Best Western Plus Suites Hotel - Los Angeles LAX Airport**: price rose $168 to $182/night, so cheaper options outranked it\n\n**Price drops on hotels you've seen before**\n\u2022 **La Quinta Inn & Suites by Wyndham Inglewood**: $120 \u2192 $111/night (\u22128%), in today's list",
+    "title": "SoFi hotels, Nov 18, 7:46 AM",
+    "description": "**Mar 7-14 (tentative)**: 2027-03-07 to 2027-03-14, 2 guests, showing 8 hotels (best value, cheapest always included).\n\n**Added to the list** (1)\n\u2022 **Hilton Garden Inn LAX Los Angeles Airport**: price fell $178 to $166/night\n\n**Dropped from the list** (1)\n\u2022 **Hyatt Place Los Angeles/LAX/El Segundo**: still listed at $184/night but outranked by better-value options\n\n**Price drops on hotels you've seen before**\n\u2022 **Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG**: $162 \u2192 $153/night (\u22126%), in today's list",
     "color": 683124
    }
   ]
@@ -18,8 +18,8 @@
    },
    {
     "title": "2. La Quinta Inn & Suites by Wyndham Inglewood",
-    "color": 1800771,
-    "description": "\ud83d\udd3b **PRICE DROP** $120 \u2192 $111 (\u2212$9) since you last saw it\n3\u2605 \u00b7 4 (1,480) \u00b7 2.5 km to SoFi \u00b7 breakfast included\n**$111/night \u00b7 $778 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Free parking, Air conditioning, Fitness center, Restaurant\nCheck-in 3:00\u202fPM",
+    "color": 683124,
+    "description": "3\u2605 \u00b7 4 (1,480) \u00b7 2.5 km to SoFi \u00b7 breakfast included\n**$111/night \u00b7 $778 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Free parking, Air conditioning, Fitness center, Restaurant\nCheck-in 3:00\u202fPM",
     "url": "https://www.wyndhamhotels.com/laquinta/inglewood-california/la-quinta-inglewood/overview?CID=LC:6ysy27krtpcrqev:52805&iata=00093796"
    },
    {
@@ -30,14 +30,14 @@
    },
    {
     "title": "4. Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG",
-    "color": 683124,
-    "description": "3\u2605 \u00b7 4 (1,579) \u00b7 2.8 km to SoFi \u00b7 breakfast included\n**$162/night \u00b7 $1,134 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Outdoor pool, Hot tub, Air conditioning\nCheck-in 3:00\u202fPM",
+    "color": 1800771,
+    "description": "\ud83d\udd3b **PRICE DROP** $162 \u2192 $153 (\u2212$9) since you last saw it\n3\u2605 \u00b7 4 (1,579) \u00b7 2.8 km to SoFi \u00b7 breakfast included\n**$153/night \u00b7 $1,074 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Outdoor pool, Hot tub, Air conditioning\nCheck-in 3:00\u202fPM",
     "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/hawthorne/laxhb/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-LAXHB"
    },
    {
     "title": "5. Hampton Inn by Hilton Los Angeles Airport LAX",
     "color": 683124,
-    "description": "3\u2605 \u00b7 4.3 (747) \u00b7 3.1 km to SoFi \u00b7 breakfast included\n**$177/night \u00b7 $1,239 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Air conditioning, Pet-friendly, Fitness center\nCheck-in 3:00\u202fPM",
+    "description": "3\u2605 \u00b7 4.3 (747) \u00b7 3.1 km to SoFi \u00b7 breakfast included\n**$180/night \u00b7 $1,260 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Air conditioning, Pet-friendly, Fitness center\nCheck-in 3:00\u202fPM",
     "url": "https://www.hilton.com/en/hotels/laxaphx-hampton-los-angeles-airport-lax/?SEO_id=GMB-AMER-HX-LAXAPHX"
    },
    {
@@ -47,16 +47,16 @@
     "url": "https://www.marriott.com/en-us/hotels/laxth-towneplace-suites-los-angeles-lax-hawthorne/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
    },
    {
-    "title": "7. Renaissance Los Angeles Airport Hotel",
+    "title": "7. Hilton Garden Inn LAX Los Angeles Airport",
     "color": 683124,
-    "description": "4\u2605 \u00b7 4.1 (4,063) \u00b7 4.3 km to SoFi \u00b7 breakfast included\n**$180/night \u00b7 $1,258 total incl. taxes** (7 nights)\nAmenities: Breakfast ($), Wi-Fi ($), Parking ($), Outdoor pool, Air conditioning, Pet-friendly\nCheck-in 4:00\u202fPM",
-    "url": "https://www.marriott.com/en-us/hotels/laxrr-renaissance-los-angeles-airport-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    "description": "3\u2605 \u00b7 3.8 (665) \u00b7 3.1 km to SoFi \u00b7 breakfast included\n**$166/night \u00b7 $1,159 total incl. taxes** (7 nights)\nAmenities: Breakfast ($), Free Wi-Fi, Parking ($), Air conditioning, Pet-friendly, Fitness center\nCheck-in 3:00\u202fPM",
+    "url": "https://www.hilton.com/en/hotels/laxxigi-hilton-garden-inn-lax-los-angeles-airport/?SEO_id=GMB-AMER-GI-LAXXIGI"
    },
    {
-    "title": "8. Hyatt Place Los Angeles/LAX/El Segundo",
+    "title": "8. Renaissance Los Angeles Airport Hotel",
     "color": 683124,
-    "description": "3\u2605 \u00b7 4.1 (1,619) \u00b7 5.3 km to SoFi \u00b7 breakfast included\n**$184/night \u00b7 $1,288 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Outdoor pool, Hot tub, Air conditioning\nCheck-in 4:00\u202fPM",
-    "url": "https://www.hyatt.com/hyatt-place/en-US/laxze-hyatt-place-los-angeles-lax-el-segundo?src=corp_lclb_google_seo_laxze&utm_source=google&utm_medium=organic&utm_campaign=lmr",
+    "description": "4\u2605 \u00b7 4.1 (4,063) \u00b7 4.3 km to SoFi \u00b7 breakfast included\n**$180/night \u00b7 $1,258 total incl. taxes** (7 nights)\nAmenities: Breakfast ($), Wi-Fi ($), Parking ($), Outdoor pool, Air conditioning, Pet-friendly\nCheck-in 4:00\u202fPM",
+    "url": "https://www.marriott.com/en-us/hotels/laxrr-renaissance-los-angeles-airport-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
     "footer": {
      "text": "Prices from Google Hotels via SerpApi. Bold = cheapest listing site."
     }
