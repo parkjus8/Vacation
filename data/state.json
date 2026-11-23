@@ -2,23 +2,23 @@
  "shown": {
   "Mar 7-14 (tentative)|Studio 6 Suites Los Angeles, CA - Los Angeles - LAX": {
    "price": 79,
-   "date": "2026-11-23T1412"
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|La Quinta Inn & Suites by Wyndham Inglewood": {
-   "price": 111,
-   "date": "2026-11-23T1412"
+   "price": 114,
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|Comfort Inn Cockatoo Near LAX Airport": {
-   "price": 126,
-   "date": "2026-11-23T1412"
+   "price": 131,
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG": {
-   "price": 162,
-   "date": "2026-11-23T1412"
+   "price": 161,
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|Hampton Inn by Hilton Los Angeles Airport LAX": {
    "price": 181,
-   "date": "2026-11-23T1412"
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|TownePlace Suites by Marriott Los Angeles LAX/Hawthorne": {
    "price": 180,
@@ -34,11 +34,11 @@
   },
   "Mar 7-14 (tentative)|Best Western Plus Suites Hotel - Los Angeles LAX Airport": {
    "price": 180,
-   "date": "2026-11-23T1412"
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|Hyatt Place Los Angeles/LAX/El Segundo": {
-   "price": 188,
-   "date": "2026-11-22T1857"
+   "price": 189,
+   "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|Hilton Garden Inn LAX Los Angeles Airport": {
    "price": 169,
@@ -49,8 +49,8 @@
    "date": "2026-11-23T1412"
   },
   "Mar 7-14 (tentative)|Hilton Los Angeles Airport": {
-   "price": 181,
-   "date": "2026-11-23T1412"
+   "price": 180,
+   "date": "2026-11-23T2314"
   }
  },
  "last_top": {
@@ -61,15 +61,15 @@
    },
    {
     "name": "La Quinta Inn & Suites by Wyndham Inglewood",
-    "nightly": 111
+    "nightly": 114
    },
    {
     "name": "Comfort Inn Cockatoo Near LAX Airport",
-    "nightly": 126
+    "nightly": 131
    },
    {
     "name": "Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG",
-    "nightly": 162
+    "nightly": 161
    },
    {
     "name": "Hampton Inn by Hilton Los Angeles Airport LAX",
@@ -80,12 +80,12 @@
     "nightly": 180
    },
    {
-    "name": "Los Angeles Airport Marriott",
-    "nightly": 192
+    "name": "Hyatt Place Los Angeles/LAX/El Segundo",
+    "nightly": 189
    },
    {
     "name": "Hilton Los Angeles Airport",
-    "nightly": 181
+    "nightly": 180
    }
   ]
  }
