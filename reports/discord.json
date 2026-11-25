@@ -2,13 +2,65 @@
  {
   "embeds": [
    {
-    "title": "SoFi hotels, Nov 25, 8:59 AM",
-    "description": "**Mar 7-14 (tentative)**: 2027-03-07 to 2027-03-14, 2 guests, showing 0 hotels (best value, cheapest always included).\n\n**Added to the list**\nNone\n\n**Dropped from the list** (8)\n\u2022 **Studio 6 Suites Los Angeles, CA - Los Angeles - LAX**: below your 50 review minimum (now $82/night)\n\u2022 **La Quinta Inn & Suites by Wyndham Inglewood**: below your 50 review minimum (now $111/night)\n\u2022 **Comfort Inn Cockatoo Near LAX Airport**: below your 50 review minimum (now $131/night)\n\u2022 **Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG**: below your 50 review minimum (now $159/night)\n\u2022 **Hampton Inn by Hilton Los Angeles Airport LAX**: below your 50 review minimum (now $184/night)\n\u2022 **Renaissance Los Angeles Airport Hotel**: below your 50 review minimum (now $180/night)\n\u2022 **Best Western Plus Suites Hotel - Los Angeles LAX Airport**: below your 50 review minimum (now $180/night)\n\u2022 **Hampton Inn Los Angeles Int'l Airport/Hawthorne**: below your 50 review minimum (now $170/night)\n\n**Price drops on hotels you've seen before**\nNone",
+    "title": "SoFi hotels, Nov 25, 3:57 PM",
+    "description": "**Mar 7-14 (tentative)**: 2027-03-07 to 2027-03-14, 2 guests, showing 8 hotels (best value, cheapest always included).\n\n**Added to the list** (8)\n\u2022 **Studio 6 Suites Los Angeles, CA - Los Angeles - LAX**: back within your filters (was below your 50 review minimum), now $82/night\n\u2022 **La Quinta Inn & Suites by Wyndham Inglewood**: back within your filters (was below your 50 review minimum), now $111/night\n\u2022 **Comfort Inn Cockatoo Near LAX Airport**: back within your filters (was below your 50 review minimum), now $131/night\n\u2022 **Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG**: back within your filters (was below your 50 review minimum), now $153/night\n\u2022 **Hampton Inn by Hilton Los Angeles Airport LAX**: back within your filters (was below your 50 review minimum), now $182/night\n\u2022 **Hampton Inn Los Angeles Int'l Airport/Hawthorne**: back within your filters (was below your 50 review minimum), now $170/night\n\u2022 **Renaissance Los Angeles Airport Hotel**: back within your filters (was below your 50 review minimum), now $180/night\n\u2022 **Best Western Plus Suites Hotel - Los Angeles LAX Airport**: back within your filters (was below your 50 review minimum), now $180/night\n\n**Dropped from the list**\nNone\n\n**Price drops on hotels you've seen before**\n\u2022 **Hampton Inn Los Angeles Int'l Airport/Hawthorne**: $182 \u2192 $170/night (\u22127%), in today's list\n\u2022 **Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG**: $159 \u2192 $153/night (\u22124%), in today's list",
     "color": 683124
    }
   ]
  },
  {
-  "embeds": []
+  "embeds": [
+   {
+    "title": "1. Studio 6 Suites Los Angeles, CA - Los Angeles - LAX",
+    "color": 683124,
+    "description": "3\u2605 \u00b7 4.3 (825) \u00b7 2.7 km to SoFi \u00b7 no breakfast listed\n**$82/night \u00b7 $576 total incl. taxes** (7 nights)\nAmenities: Free Wi-Fi, Parking ($), Outdoor pool, Air conditioning, Pet-friendly, Airport shuttle\nCheck-in 3:00\u202fPM",
+    "url": "https://www.studio6.com/en/home/motels.la.losangeles.7329.html?lid=Local_Milestone&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W&utm_source=google%20my%20business&utm_medium=organic%20listing&utm_campaign=visit%20website&utm_content=global"
+   },
+   {
+    "title": "2. La Quinta Inn & Suites by Wyndham Inglewood",
+    "color": 683124,
+    "description": "3\u2605 \u00b7 4 (1,482) \u00b7 2.5 km to SoFi \u00b7 breakfast included\n**$111/night \u00b7 $777 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Free parking, Air conditioning, Restaurant, Airport shuttle\nCheck-in 3:00\u202fPM",
+    "url": "https://www.wyndhamhotels.com/laquinta/inglewood-california/la-quinta-inglewood/overview?CID=LC:6ysy27krtpcrqev:52805&iata=00093796"
+   },
+   {
+    "title": "3. Comfort Inn Cockatoo Near LAX Airport",
+    "color": 683124,
+    "description": "4\u2605 \u00b7 4 (1,280) \u00b7 2.8 km to SoFi \u00b7 breakfast included\n**$131/night \u00b7 $915 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Fitness center\nCheck-in 3:00\u202fPM",
+    "url": "https://www.choicehotels.com/california/hawthorne/comfort-inn-hotels/caa01?mc=llgoxxpx"
+   },
+   {
+    "title": "4. Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG",
+    "color": 1800771,
+    "description": "\ud83d\udd3b **PRICE DROP** $159 \u2192 $153 (\u2212$6) since you last saw it\n3\u2605 \u00b7 4 (1,582) \u00b7 2.8 km to SoFi \u00b7 breakfast included\n**$153/night \u00b7 $1,069 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Outdoor pool, Hot tub, Air conditioning\nCheck-in 3:00\u202fPM",
+    "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/hawthorne/laxhb/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-LAXHB"
+   },
+   {
+    "title": "5. Hampton Inn by Hilton Los Angeles Airport LAX",
+    "color": 683124,
+    "description": "3\u2605 \u00b7 4.3 (750) \u00b7 3.1 km to SoFi \u00b7 breakfast included\n**$182/night \u00b7 $1,274 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Air conditioning, Pet-friendly, Fitness center\nCheck-in 3:00\u202fPM",
+    "url": "https://www.hilton.com/en/hotels/laxaphx-hampton-los-angeles-airport-lax/?SEO_id=GMB-AMER-HX-LAXAPHX"
+   },
+   {
+    "title": "6. Hampton Inn Los Angeles Int'l Airport/Hawthorne",
+    "color": 1800771,
+    "description": "\ud83d\udd3b **PRICE DROP** $182 \u2192 $170 (\u2212$12) since you last saw it\n3\u2605 \u00b7 4 (2,023) \u00b7 2.7 km to SoFi \u00b7 breakfast included\n**$170/night \u00b7 $1,187 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Free parking, Indoor pool, Air conditioning, Pet-friendly\nCheck-in 3:00\u202fPM",
+    "url": "https://www.hilton.com/en/hotels/laxhthx-hampton-los-angeles-intl-airport-hawthorne/?SEO_id=GMB-AMER-HX-LAXHTHX"
+   },
+   {
+    "title": "7. Renaissance Los Angeles Airport Hotel",
+    "color": 683124,
+    "description": "4\u2605 \u00b7 4.1 (4,067) \u00b7 4.3 km to SoFi \u00b7 breakfast included\n**$180/night \u00b7 $1,258 total incl. taxes** (7 nights)\nAmenities: Breakfast ($), Wi-Fi ($), Parking ($), Outdoor pool, Air conditioning, Pet-friendly\nCheck-in 4:00\u202fPM",
+    "url": "https://www.marriott.com/en-us/hotels/laxrr-renaissance-los-angeles-airport-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+   },
+   {
+    "title": "8. Best Western Plus Suites Hotel - Los Angeles LAX Airport",
+    "color": 683124,
+    "description": "3\u2605 \u00b7 4 (1,464) \u00b7 2.6 km to SoFi \u00b7 breakfast included\n**$180/night \u00b7 $1,262 total incl. taxes** (7 nights)\nAmenities: Free breakfast, Free Wi-Fi, Parking ($), Outdoor pool, Hot tub, Air conditioning\nCheck-in 3:00\u202fPM",
+    "url": "https://www.bestwestern.com/en_US/book/hotel-rooms.05517.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:05517",
+    "footer": {
+     "text": "Prices from Google Hotels via SerpApi. Bold = cheapest listing site."
+    }
+   }
+  ]
  }
 ]
