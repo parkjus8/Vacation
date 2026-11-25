@@ -58,39 +58,6 @@
   }
  },
  "last_top": {
-  "Mar 7-14 (tentative)": [
-   {
-    "name": "Studio 6 Suites Los Angeles, CA - Los Angeles - LAX",
-    "nightly": 82
-   },
-   {
-    "name": "La Quinta Inn & Suites by Wyndham Inglewood",
-    "nightly": 111
-   },
-   {
-    "name": "Comfort Inn Cockatoo Near LAX Airport",
-    "nightly": 131
-   },
-   {
-    "name": "Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG",
-    "nightly": 159
-   },
-   {
-    "name": "Hampton Inn by Hilton Los Angeles Airport LAX",
-    "nightly": 181
-   },
-   {
-    "name": "Renaissance Los Angeles Airport Hotel",
-    "nightly": 180
-   },
-   {
-    "name": "Best Western Plus Suites Hotel - Los Angeles LAX Airport",
-    "nightly": 180
-   },
-   {
-    "name": "Hampton Inn Los Angeles Int'l Airport/Hawthorne",
-    "nightly": 182
-   }
-  ]
+  "Mar 7-14 (tentative)": []
  }
 }
