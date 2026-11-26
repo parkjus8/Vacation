@@ -2,23 +2,23 @@
  "shown": {
   "Mar 7-14 (tentative)|Studio 6 Suites Los Angeles, CA - Los Angeles - LAX": {
    "price": 81,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|La Quinta Inn & Suites by Wyndham Inglewood": {
    "price": 111,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|Comfort Inn Cockatoo Near LAX Airport": {
    "price": 131,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG": {
    "price": 158,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|Hampton Inn by Hilton Los Angeles Airport LAX": {
    "price": 182,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|TownePlace Suites by Marriott Los Angeles LAX/Hawthorne": {
    "price": 180,
@@ -26,7 +26,7 @@
   },
   "Mar 7-14 (tentative)|Renaissance Los Angeles Airport Hotel": {
    "price": 180,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|King Motel": {
    "price": 86,
@@ -41,8 +41,8 @@
    "date": "2026-11-23T2314"
   },
   "Mar 7-14 (tentative)|Hilton Garden Inn LAX Los Angeles Airport": {
-   "price": 169,
-   "date": "2026-11-19T1951"
+   "price": 159,
+   "date": "2026-11-26T2049"
   },
   "Mar 7-14 (tentative)|Los Angeles Airport Marriott": {
    "price": 192,
@@ -54,7 +54,7 @@
   },
   "Mar 7-14 (tentative)|Hampton Inn Los Angeles Int'l Airport/Hawthorne": {
    "price": 180,
-   "date": "2026-11-26T1339"
+   "date": "2026-11-26T2049"
   }
  },
  "last_top": {
@@ -76,6 +76,10 @@
     "nightly": 158
    },
    {
+    "name": "Hilton Garden Inn LAX Los Angeles Airport",
+    "nightly": 159
+   },
+   {
     "name": "Hampton Inn by Hilton Los Angeles Airport LAX",
     "nightly": 182
    },
@@ -86,10 +90,6 @@
    {
     "name": "Hampton Inn Los Angeles Int'l Airport/Hawthorne",
     "nightly": 180
-   },
-   {
-    "name": "Best Western Plus Suites Hotel - Los Angeles LAX Airport",
-    "nightly": 182
    }
   ]
  }
