@@ -2,23 +2,23 @@
  "shown": {
   "Mar 7-14 (tentative)|Studio 6 Suites Los Angeles, CA - Los Angeles - LAX": {
    "price": 83,
-   "date": "2026-11-27T1336"
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|La Quinta Inn & Suites by Wyndham Inglewood": {
    "price": 115,
-   "date": "2026-11-27T1336"
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|Comfort Inn Cockatoo Near LAX Airport": {
    "price": 129,
-   "date": "2026-11-27T1336"
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG": {
-   "price": 158,
-   "date": "2026-11-27T1336"
+   "price": 155,
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|Hampton Inn by Hilton Los Angeles Airport LAX": {
-   "price": 184,
-   "date": "2026-11-27T1336"
+   "price": 183,
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|TownePlace Suites by Marriott Los Angeles LAX/Hawthorne": {
    "price": 180,
@@ -26,7 +26,7 @@
   },
   "Mar 7-14 (tentative)|Renaissance Los Angeles Airport Hotel": {
    "price": 180,
-   "date": "2026-11-27T1336"
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|King Motel": {
    "price": 86,
@@ -42,7 +42,7 @@
   },
   "Mar 7-14 (tentative)|Hilton Garden Inn LAX Los Angeles Airport": {
    "price": 159,
-   "date": "2026-11-27T1336"
+   "date": "2026-11-27T2035"
   },
   "Mar 7-14 (tentative)|Los Angeles Airport Marriott": {
    "price": 192,
@@ -54,7 +54,7 @@
   },
   "Mar 7-14 (tentative)|Hampton Inn Los Angeles Int'l Airport/Hawthorne": {
    "price": 178,
-   "date": "2026-11-27T1336"
+   "date": "2026-11-27T2035"
   }
  },
  "last_top": {
@@ -73,7 +73,7 @@
    },
    {
     "name": "Holiday Inn Express & Suites Los Angeles Airport Hawthorne by IHG",
-    "nightly": 158
+    "nightly": 155
    },
    {
     "name": "Hilton Garden Inn LAX Los Angeles Airport",
@@ -81,7 +81,7 @@
    },
    {
     "name": "Hampton Inn by Hilton Los Angeles Airport LAX",
-    "nightly": 184
+    "nightly": 183
    },
    {
     "name": "Renaissance Los Angeles Airport Hotel",
